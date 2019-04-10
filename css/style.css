@@ -1,4 +1,63 @@
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 18px;
+  font-family: system-ui, sans-serif;
+}
+@media screen and (min-width: 575px) {
+  .container {
+    margin-left: 52px;
+    margin-right: 52px;
+  }
+}
+
+div {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 575px) {
+  div {
+    width: 47%;
+    display: inline-block;
+    padding-bottom: 0;
+    padding: 5px;
+  }
+}
+
+img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+@media screen and (min-width: 575px) {
+  img {
+    height: 205px;
+  }
+}
+
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 22px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.preview h1 {
+  position: absolute;
+  font-family: serif;
+  margin-top: 38px;
+  left: 36px;
+  font-weight: 900;
+}
+
+.containerBox {
+  position: relative;
+  display: inline-block;
+}
+.text-box h1 {
+
+}
+
 }
